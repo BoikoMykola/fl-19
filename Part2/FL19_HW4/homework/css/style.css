@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-block button {
+  background-color: #20BA96;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: none;
+}
+
+.flex-block {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px;
+}
+
+.container {
+  border: 1px solid rgb(202, 198, 198);
+  min-width: 300px;
+  min-height: 300px;
+  display: flex;
+}
+
+.container ul {
+  padding: 0;
+  margin: 10px 10px 0;
+  flex-grow: 1;
+}
+
+.container li {
+list-style-type: none;
+background-color: #EEEEEE;
+padding: 10px 20px;
+margin-bottom: 10px;
+}
+
+.name {
+  margin: 0 0 10px 0;
+}
+
+.container button {
+  padding: 4px 20px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+
+.edit {
+  background-color: #1A96C7;
+}
+
+.delete {
+  background-color: #AB2451;
+}
+
+.save button {
+  background-color: #1EB18F;
+}
+
+.hidden {
+  display: none;
+}
+
+.container input {
+  padding: 3px 20px;
+}
+
+.save {
+  margin-top: 10px;
+}
+
+.loading {
+  flex-grow: 1;
+  align-self: center;
+}

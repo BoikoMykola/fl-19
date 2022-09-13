@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  width: 185px;
+  margin: 0 auto;
+}
+
+input[disabled] {
+  color: black;
+}
+
+.line {
+  font-size: 0;
+}
+
+input {
+  border: 1px solid gray;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 30px;
+  margin: 1px;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.btn-block {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 3px 20px;
+  background-color: gray;
+  cursor: pointer;
+  border-color: rgb(105, 103, 103);
+}

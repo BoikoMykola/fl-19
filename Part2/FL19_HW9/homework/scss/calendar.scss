@@ -1,0 +1,27 @@
+#calendar {
+  width: 100%;
+  line-height: 1.2em;
+  font-size: 20px;
+  text-align: center;
+  border-spacing: 0px;
+
+  tr.weekDay td {
+    font-size: 15px;
+  }
+
+  tbody {
+    td {
+      color: #2c567a;
+      height: 26px;
+    }
+
+    :nth-child(n + 6) {
+      color: #e78c5c;
+    }
+
+    .today {
+      background: #0166c0;
+      color: #fff;
+    }
+  }
+}

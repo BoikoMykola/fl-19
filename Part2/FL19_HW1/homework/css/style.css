@@ -1,0 +1,291 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: #F4F4F4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1140px;
+  min-width: 800px;
+  margin: 20px auto;
+}
+
+section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button {
+  padding: 15px 40px;
+  background-color: #019999;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(118, 205, 216);
+}
+
+a {
+  text-decoration: none;
+  color: #0078D7;
+}
+
+.card, .other-card {
+  display: flex;
+  position: relative;
+}
+
+.card:nth-child(odd):hover::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #76cdd8;
+  clip-path: polygon(100% 0%, 100% 60px, 94% 0%);
+}
+
+.card:nth-child(even):hover::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #76cdd8;
+  clip-path: polygon(0% 0%, 0% 60px, 60px 0%);
+}
+
+.card:hover {
+  color: #76cdd8;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.card-img {
+  background-color: #76CDD8;
+  color: #ffffff;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img>p {
+  font-size: 14px;
+}
+
+.terminal {
+  display: flex;
+}
+
+.terminal:hover, .court:hover, .playground:hover {
+  transform: scale(1.09);
+}
+
+.card-img>h1 {
+  font-weight: 500;
+  font-size: 40px;
+  margin: auto;
+}
+
+.wrap-img {
+  width: 300px;
+  height: 300px;
+  background-image: url("../img/image-04.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.cursive {
+  font-style: italic;
+}
+
+.card-content {
+  background-color: #ffffff;
+  padding: 60px 40px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.center {
+  align-self: center;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.title {
+  color: #76cdd8;
+}
+
+.tariffs-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #ffffff;
+}
+
+.tariff {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan:hover {
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.plan:hover button {
+  background: #24d4d4;
+}
+
+.tariff:last-child {
+  margin-left: 0;
+}
+
+.tariff-header {
+  background-color: #019999;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px 40px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tariff-body {
+  padding: 40px 40px 20px 40px;
+  border: 1px solid #019999;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.tariff-body>p {
+  margin-bottom: 20px;
+}
+
+.header-block {
+  background-color: #24D4D4;
+  color: #ffffff;
+  padding: 20px 10% 60px;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+  background-color: #019999;
+  color: #ffffff;
+  padding: 60px 10% 30px;
+  margin-top: -40px;
+}
+
+.form-block {
+  background-color: #ffffff;
+  padding: 70px;
+  width: 80%;
+  margin: -40px auto 0;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+.enter-block {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border-radius: 0;
+}
+
+input, textarea {
+  border: 1px solid rgb(214, 209, 209);
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #24d4d4;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+textarea {
+  flex-grow: 1;
+}
+
+.description {
+  line-height: 30px;
+}
+
+footer>p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.discount {
+  color: #24d4d4;
+  text-align: center;
+  display: none;
+  padding-bottom: 10px;
+}
+
+.discount>span {
+  color: red;
+}
+
+.advanced:hover .discount {
+  display: block;
+}
+
+.advanced:hover {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

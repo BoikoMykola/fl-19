@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>FL 11 19 homework Ajax</title>
+</head>
+
+<body>
+  <h1>Users</h1>
+  <div class="button-block">
+    <button id="loadJs">Load by JS</button>
+    <button id="loadFetch">Load by Fetch</button>
+  </div>
+  <div class="flex-block">
+    <div id="usersBlockXhr" class="container">
+      <p id="firstCol" class="loading hidden">...Loading</p>
+    </div>
+    <div id="usersBlockFetch" class="container">
+      <p id="secondCol" class="loading hidden">...Loading</p>
+      <ul id="fullList"></ul>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

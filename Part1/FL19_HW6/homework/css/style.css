@@ -1,0 +1,37 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-wrap {
+  background-image: url(../img/header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FBF9FA;
+  background-size: cover;
+}
+
+.nav-bg, .learn, footer {
+  background-color: #343A40;
+}
+
+.header-wrap .logo {
+  color: #C62C45;
+}
+
+.header-container {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.block-bg {
+  background-color: #F8F9FA;
+}
+
+.buy-color {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.connect {
+  color: #69757C;
+}
+

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+  text-align: center;
+}
+
+.start, .fight {
+  margin: 20px;
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.fighterButton {
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.battle-field {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fighter {
+  padding: 20px;
+  width: 200px;
+  color: white;
+}
+
+.myFighter {
+  background-color: blueviolet;
+}
+
+.compFighter {
+  background-color: darkgray;
+}
